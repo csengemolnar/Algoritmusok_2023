@@ -6,6 +6,9 @@
         class Tavolsag
         {
             int varosszam;
+            //public int[] MaxTavolsag { get; set; }
+            public List<int> MaxTavolsag { get; set; }
+
             public Tavolsag(int varosszam)
             {
                 this.varosszam=varosszam;
@@ -45,6 +48,30 @@
 
             }
 
+            //Legmesszebb lévő városok kiválasztása
+            public void MaxTav(int[] tavolsag)
+            {
+                // Az osszesen vegig kell menni , megnezni a legrovidebb utakat
+                // mindegyik legrovidebb utnal ki kell valasztani a max utat(tehat ami a legmeszzebb van )
+                // és ezek közül kell kiválasztani , azt az indexet és sulyt ami a legkisebb!
+
+                int maximum = int.MinValue;
+                int maxind = -1;
+                for(int i=0; i<tavolsag.Length; i++)
+                {
+                    if (tavolsag[i] > maximum)
+                    {
+                        maximum = tavolsag[i];
+                        maxind = i;
+                    }
+
+                }
+                //próbálom hozzáadni egy listához amit megkap a főprogram
+                //és akkor a főprogramban kiválasztjuk a legkisebbet
+                
+                MaxTavolsag.Add(maximum);
+            }
+
 
             public void LegrovidebbUt(int[,] csucsmatrix, int ut)
             {
@@ -74,6 +101,9 @@
                 }
 
                 Kiir(tavolsag, varosszam);
+                MaxTav(tavolsag);
+                
+                
 
 
             }
@@ -107,9 +137,40 @@
 
             }
 
+            //Legrövidebb út megkeresése
             Tavolsag t = new Tavolsag(varosszam);
-            t.LegrovidebbUt(csucsmatrix,0);
-            
+            // Az osszesen vegig kell menni , megnezni a legrovidebb utakat
+            // mindegyik legrovidebb utnal ki kell valasztani a max utat(tehat ami a legmeszzebb van )
+            // és ezek közül kell kiválasztani , azt az indexet és sulyt ami a legkisebb!
+
+            for (int i = 0; i < varosszam; i++)
+            {
+                t.LegrovidebbUt(csucsmatrix, i);
+
+            }
+
+            int minind = -1;
+            int mintav = int.MaxValue;
+
+            for (int i = 0; i < t.MaxTavolsag.Count(); i++)
+            {
+                if (t.MaxTavolsag[i] < mintav)
+                {
+                    mintav = t.MaxTavolsag[i];
+                    minind= i;
+                }
+
+            }
+            Console.WriteLine(minind+1);
+            Console.WriteLine(mintav);
+
+
+            //Tavolsag t2 = new Tavolsag(varosszam);
+            //int maxindex = t.MaxTavolsag;
+            //t2.LegrovidebbUt(csucsmatrix, maxindex);
+
+
+
 
         }
     }
