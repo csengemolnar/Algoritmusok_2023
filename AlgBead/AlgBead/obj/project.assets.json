@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Csenge\\Documents\\Egyetem\\Programtervező informatikus\\2. félév\\Algoritmusok és adatszerkezetek\\GY\\Algoritmusok_2023\\AlgBead\\AlgBead\\AlgBead.csproj",
+      "projectUniqueName": "C:\\Users\\Csenge\\Documents\\Egyetem\\Prog Inf\\2. félév\\Algoritmusok és adatszerkezetek\\GY\\Algoritmusok_2023\\AlgBead\\AlgBead\\AlgBead.csproj",
       "projectName": "AlgBead",
-      "projectPath": "C:\\Users\\Csenge\\Documents\\Egyetem\\Programtervező informatikus\\2. félév\\Algoritmusok és adatszerkezetek\\GY\\Algoritmusok_2023\\AlgBead\\AlgBead\\AlgBead.csproj",
+      "projectPath": "C:\\Users\\Csenge\\Documents\\Egyetem\\Prog Inf\\2. félév\\Algoritmusok és adatszerkezetek\\GY\\Algoritmusok_2023\\AlgBead\\AlgBead\\AlgBead.csproj",
       "packagesPath": "C:\\Users\\Csenge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Csenge\\Documents\\Egyetem\\Programtervező informatikus\\2. félév\\Algoritmusok és adatszerkezetek\\GY\\Algoritmusok_2023\\AlgBead\\AlgBead\\obj\\",
+      "outputPath": "C:\\Users\\Csenge\\Documents\\Egyetem\\Prog Inf\\2. félév\\Algoritmusok és adatszerkezetek\\GY\\Algoritmusok_2023\\AlgBead\\AlgBead\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Csenge\\AppData\\Roaming\\NuGet\\NuGet.Config",

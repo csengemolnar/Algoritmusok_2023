@@ -1,4 +1,8 @@
-﻿namespace AlgBead
+﻿
+using System.Collections.Generic;
+using System;
+
+namespace AlgBead
 {
     class Program
     {
@@ -6,15 +10,13 @@
         class Tavolsag
         {
             int varosszam;
-            //public int[] MaxTavolsag { get; set; }
-            public List<int> MaxTavolsag { get; set; }
+            public List<int> MaxTavolsag = new List<int>();
+
 
             public Tavolsag(int varosszam)
             {
-                this.varosszam=varosszam;
-                
+                this.varosszam = varosszam;
             }
-
 
 
 
@@ -68,8 +70,7 @@
                 }
                 //próbálom hozzáadni egy listához amit megkap a főprogram
                 //és akkor a főprogramban kiválasztjuk a legkisebbet
-                
-                MaxTavolsag.Add(maximum);
+                this.MaxTavolsag.Add(maximum);
             }
 
 
@@ -100,7 +101,7 @@
 
                 }
 
-                Kiir(tavolsag, varosszam);
+                //Kiir(tavolsag, varosszam);
                 MaxTav(tavolsag);
                 
                 
@@ -114,7 +115,7 @@
 
         static void Main(string[] args)
         {
-            var input=Console.ReadLine();
+            var input = Console.ReadLine();
             var result = input.Split(' ');
 
             int varosszam = int.Parse(result[0]);
@@ -124,18 +125,20 @@
 
             for (int i = 0; i < utszam; i++)
             {
-                var line=Console.ReadLine();
+                var line = Console.ReadLine();
                 char[] tokens = new char[] { ' ', '\n' };
-                var res = line.Split(tokens,StringSplitOptions.RemoveEmptyEntries);
+                var res = line.Split(tokens, StringSplitOptions.RemoveEmptyEntries);
 
                 int a = int.Parse(res[0]);
                 int b = int.Parse(res[1]);
                 int weight = int.Parse(res[2]);
 
-                csucsmatrix[a-1, b-1] = weight;
-                csucsmatrix[b-1, a-1] = weight;
+                csucsmatrix[a - 1, b - 1] = weight;
+                csucsmatrix[b - 1, a - 1] = weight;
 
             }
+
+           
 
             //Legrövidebb út megkeresése
             Tavolsag t = new Tavolsag(varosszam);
@@ -148,11 +151,12 @@
                 t.LegrovidebbUt(csucsmatrix, i);
 
             }
-
+            //Tavolsag obj = new Tavolsag(varosszam);
+            
             int minind = -1;
             int mintav = int.MaxValue;
 
-            for (int i = 0; i < t.MaxTavolsag.Count(); i++)
+            for (int i = 0; i < t.MaxTavolsag.Count; i++)
             {
                 if (t.MaxTavolsag[i] < mintav)
                 {
@@ -165,9 +169,6 @@
             Console.WriteLine(mintav);
 
 
-            //Tavolsag t2 = new Tavolsag(varosszam);
-            //int maxindex = t.MaxTavolsag;
-            //t2.LegrovidebbUt(csucsmatrix, maxindex);
 
 
 

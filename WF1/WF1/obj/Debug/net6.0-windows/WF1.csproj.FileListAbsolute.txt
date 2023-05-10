@@ -1,0 +1,17 @@
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\bin\Debug\net6.0-windows\WF1.exe
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\bin\Debug\net6.0-windows\WF1.deps.json
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\bin\Debug\net6.0-windows\WF1.runtimeconfig.json
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\bin\Debug\net6.0-windows\WF1.dll
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\bin\Debug\net6.0-windows\WF1.pdb
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\WF1.csproj.AssemblyReference.cache
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\WF1.Form1.resources
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\WF1.csproj.GenerateResource.cache
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\WF1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\WF1.AssemblyInfoInputs.cache
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\WF1.AssemblyInfo.cs
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\WF1.csproj.CoreCompileInputs.cache
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\WF1.dll
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\refint\WF1.dll
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\WF1.pdb
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\WF1.genruntimeconfig.cache
+C:\Users\Csenge\Documents\Egyetem\Prog Inf\2. félév\Algoritmusok és adatszerkezetek\GY\Algoritmusok_2023\WF1\WF1\obj\Debug\net6.0-windows\ref\WF1.dll
